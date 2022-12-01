@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <h1>My forms</h1>
+    <section>
+        <form action="#./SERVER.HTML" method="post" >
+            <fieldset>
+                <legend>Basic Info</legend>
+                <p>
+                    <label for="Name1"> Name</label>
+                    <input type="text=" name="first" id="Name1">
+                
+                
+                    <label for="email1">Email Address</label>
+                    <input type="email" name="email" id="email1">
+                
+                
+                    <label for=" password1">Password</label>
+                    <input type="password" name="my password" id="password1">
+                </p>
+                <p>
+                    <label for="age"> AGE</label>
+                        <input type="radio" name="age" value=" under 13">Under 13                                      
+                </p>
+                <p>
+                    <label >
+                        <input type="radio" name="age" value="over 13">Over 13
+                    </label>
+                </p>
+
+            </fieldset>
+            <fieldset>
+                <legend>Your Profile</legend>
+                <p>
+                    <textarea placeholder="Bio"  name="comment" id="" cols="30" rows="10"></textarea>Bio
+                
+                
+                    <label for="reason">Job Role</label>
+                    <select name="reason" id="reason">
+                        <optgroup label="Web">WEB</optgroup>
+                        <option value="skill">Frontend Developer</option>
+                        <OPtion value="SKILL">Web Designer</OPtion>
+                        <OPtion value="skill">Wordpress Developer</OPtion>
+                        <optgroup label="Mobile">Mobile</optgroup>
+                        <option value="skill">Android Developer</option>
+                        <option value="SKILL">IOS Developer</option>
+                        <optgroup label="Business">Business</optgroup>
+                        <option value="skill">Business Owner</option>
+                        <option value="Skill">Freelance</option>
+                    </select>
+                    <p>
+                        <label for="interest">Interest</label><br>
+                        <label for="Development"> Development</label>
+                        <input type="checkbox" name="Development" id="Development">
+                        <label for="Design">Design</label>
+                        <input type="checkbox" name="Design" id="Design">
+                        <label for="Business">Business</label>
+                        <input type="checkbox" name="Business" id="Business">                        
+                    </p>
+                </p>
+            </fieldset>
+            <p>
+                <button type="Sign Up">Sign up</button>
+            </p>
+        </form>
+    </section>
+      
+</body>
+</html>
